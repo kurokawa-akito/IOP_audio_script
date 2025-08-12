@@ -1,5 +1,8 @@
 # IOP_audio_script
-**Python 3.12 is recommended to install.**
+**Python 3.12 is recommended to install.**  
+```bash
+pip install -r requirements.txt
+```
 ## getSourceLinkKey.py
 ### Overview
 This Python script automates the process of extracting Bluetooth link keys from an Android device using ADB (Android Debug Bridge). It performs a series of checks and operations to ensure successful retrieval of Bluetooth configuration data and extracts relevant information from bt_config.cong, such as MAC addresses of peer devices, link key and BLE LTK(if the device supports LEA).
