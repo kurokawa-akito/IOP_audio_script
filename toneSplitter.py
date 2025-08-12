@@ -60,11 +60,11 @@ class pydubSplitter:
             print(f'save as: {out_file}')
 
 def main():
-    # analyzer = wavFileAnalysis('4min_48k_multitone.wav')
-    # analyzer.draw_waveform()
-
     splitter = pydubSplitter('4min_48k_multitone.wav')
     splitter.pydub_split()
+
+    # analyzer = wavFileAnalysis('4min_48k_multitone.wav')
+    # analyzer.draw_waveform()
 
 
 if __name__ == "__main__":
